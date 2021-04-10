@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    transform-style: preserve-3d;
+    min-height: 70vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0,0,0, 0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    background: url('assets/main_background.jfif') no-repeat fixed center;
+    background-size: 100%;
+}
+
+.logo {
+    width: 10rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.card-body {
+    position: flex;
+}
+
+.card-head {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 80px;
+    color: #ffcb05;
+    transition: all 0.75s ease-out;
+}
+
+/* Clemont_XY_series */
+.image-3 {
+    bottom: 10px;
+    right : -5px;
+    position:absolute;
+    height: 45vh;
+    transition: all 0.75s ease-out;
+}
+
+/* bonnie */
+.image-1 {
+    right: 60px;
+    position: relative;
+    height: 39vh;
+    transition: all 0.75s ease-out;
+}
+
+/* serena */
+.image-2 {
+    position: absolute;
+    right: 30vh;
+    height: 43vh;
+    transition: all 0.75s ease-out;
+}
